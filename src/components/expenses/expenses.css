@@ -1,0 +1,60 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--paleorange);
+  border-radius: 14px;
+  padding: 1rem;
+  color: var(--dark-brown);
+}
+
+#graph-title{
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid var(--cream);
+  margin-top: 1rem;
+}
+
+.footer p{
+  font-size: 14px;
+  margin: 0;
+}
+
+#month-total{
+  color: var(--medium-brown);
+}
+
+.month-balance h2{
+  margin: 0;
+}
+
+.month-balance{
+  margin-top: 1.5rem;
+}
+
+.difference-month{
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
+.difference-month p{
+  margin-bottom: 0;
+  color: var(--medium-brown);
+}
+
+.difference-month h3{
+  margin: 0;
+}
+
+.graph-container{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: flex-end;
+  height: max-content;
+}

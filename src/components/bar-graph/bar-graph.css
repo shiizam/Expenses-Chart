@@ -1,0 +1,39 @@
+.align{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.align:hover{
+  cursor: pointer;
+}
+
+.hover-amount{
+  background: var(--dark-brown);
+  color: var(--cream);
+  font-size: 14px;
+  border-radius: 3px;
+  padding: .25rem;
+  margin-bottom: .5rem;
+}
+
+.bar{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 30px;
+}
+
+.days{
+  font-size: 12px;
+  margin-top: .5rem;
+  padding: 0 .5rem;
+}
+
+.bar-title{
+  color: var(--medium-brown);
+}
+

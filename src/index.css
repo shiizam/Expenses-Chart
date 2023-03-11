@@ -1,0 +1,116 @@
+:root {
+  /****** Global Color Variables ******/
+
+  /* Graph Colors */
+  --expense-bg-graph: hsl(10, 79%, 65%);
+  --today-graph: hsl(186, 34%, 60%);
+
+  /* Font and Background Colors */
+  --dark-brown: hsl(25, 47%, 15%);
+  --medium-brown: hsl(28, 10%, 53%);
+  --cream: hsl(27, 66%, 92%);
+  --paleorange: hsl(33, 100%, 98%);
+}
+
+main{
+  margin: 1rem;
+}
+
+body {
+  font-family: 'DM Sans';
+  font-size: 18px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  min-width: 375px;
+  max-width: 1440px;
+  min-height: 100vh;
+  background-color: var(--cream);
+}
+
+h1{
+  font-size: 1.5rem;
+}
+
+h2{
+  font-size: 1.75rem;
+}
+
+h3{
+  font-size: 1rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+/********** DESKTOP STYLES **********/
+@media screen and (min-width: 1200px){
+
+  /****** Balance Card Styles ******/
+  .bal-header{
+    padding-right: 10rem;
+  }
+
+  #title{
+    font-size: 1.3rem;
+  }
+
+  #current-balance{
+    font-size: 2.3rem;
+  }
+
+  img{
+    width: 100px;
+    height: 60px;
+  }
+
+  /****** Expense Card Styles ******/
+
+  .container{
+    padding: 2rem;
+  }
+
+  .graph-container{
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  #graph-title{
+    font-size: 2.3rem;
+  }
+
+  .footer p{
+    font-size: 1.125rem;
+  }
+
+  #month-total{
+    font-size: 1.125rem;
+    padding-top: .5rem;
+  }
+
+  .month-balance h2{
+    font-size: 3rem;
+  }
+
+  .difference-month{
+    padding-top: 2rem;
+  }
+
+  .difference-month h3{
+    font-size: 1.35rem;
+  }
+
+  /****** Bar Graph Styles ******/
+
+  .bar-title{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .bar{
+    width: 50px;
+  }
+}
+
